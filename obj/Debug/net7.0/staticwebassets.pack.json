@@ -1,0 +1,477 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\NSC-project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NSC-project.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\css\\default-skin.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\css\\nouislider.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\photoswipe.css",
+      "PackagePath": "staticwebassets\\css\\photoswipe.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\css\\plyr.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\3docean-light-background.png",
+      "PackagePath": "staticwebassets\\img\\3docean-light-background.png"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\Download_on_the_App_Store_Badge.svg",
+      "PackagePath": "staticwebassets\\img\\Download_on_the_App_Store_Badge.svg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\activeden-light-background.png",
+      "PackagePath": "staticwebassets\\img\\activeden-light-background.png"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\amluong.jpg",
+      "PackagePath": "staticwebassets\\img\\amluong.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\audiojungle-light-background.png",
+      "PackagePath": "staticwebassets\\img\\audiojungle-light-background.png"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\avatar_2.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar_2.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\codecanyon-light-background.png",
+      "PackagePath": "staticwebassets\\img\\codecanyon-light-background.png"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\cover.jpg",
+      "PackagePath": "staticwebassets\\img\\cover.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\cover2.jpg",
+      "PackagePath": "staticwebassets\\img\\cover2.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\cover3.jpg",
+      "PackagePath": "staticwebassets\\img\\cover3.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\cover4.jpg",
+      "PackagePath": "staticwebassets\\img\\cover4.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\cover5.jpg",
+      "PackagePath": "staticwebassets\\img\\cover5.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\cover6.jpg",
+      "PackagePath": "staticwebassets\\img\\cover6.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\ddd.jpg",
+      "PackagePath": "staticwebassets\\img\\ddd.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\dieuhanh.jpg",
+      "PackagePath": "staticwebassets\\img\\dieuhanh.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\gau.jpg",
+      "PackagePath": "staticwebassets\\img\\gau.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\google-play-badge.png",
+      "PackagePath": "staticwebassets\\img\\google-play-badge.png"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\img\\logo.svg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\photodune-light-background.png",
+      "PackagePath": "staticwebassets\\img\\photodune-light-background.png"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\project-1.jpg",
+      "PackagePath": "staticwebassets\\img\\project-1.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\project-2.jpg",
+      "PackagePath": "staticwebassets\\img\\project-2.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\project-3.jpg",
+      "PackagePath": "staticwebassets\\img\\project-3.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\project-4.jpg",
+      "PackagePath": "staticwebassets\\img\\project-4.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\project-5.jpg",
+      "PackagePath": "staticwebassets\\img\\project-5.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\project-6.jpg",
+      "PackagePath": "staticwebassets\\img\\project-6.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\section.jpg",
+      "PackagePath": "staticwebassets\\img\\section.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\thanh_soi.jpg",
+      "PackagePath": "staticwebassets\\img\\thanh_soi.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\themeforest-light-background.png",
+      "PackagePath": "staticwebassets\\img\\themeforest-light-background.png"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\user.svg",
+      "PackagePath": "staticwebassets\\img\\user.svg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\jquery.mCustomScrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\jquery.morelines.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.morelines.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\nouislider.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\photoswipe-ui-default.min.js",
+      "PackagePath": "staticwebassets\\js\\photoswipe-ui-default.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\photoswipe.min.js",
+      "PackagePath": "staticwebassets\\js\\photoswipe.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\plyr.min.js",
+      "PackagePath": "staticwebassets\\js\\plyr.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\ticket.js",
+      "PackagePath": "staticwebassets\\js\\ticket.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\js\\wNumb.js",
+      "PackagePath": "staticwebassets\\js\\wNumb.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.NSC-project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.NSC-project.props",
+      "PackagePath": "build\\NSC-project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.NSC-project.props",
+      "PackagePath": "buildMultiTargeting\\NSC-project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.NSC-project.props",
+      "PackagePath": "buildTransitive\\NSC-project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
