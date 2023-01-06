@@ -48,7 +48,7 @@ namespace NSC_project.Controllers
 
         // GET: Movies/Details/5
         //// 
-        public async Task<IActionResult> Ticket(int? id, int? theaterId, int? auditoriumId)
+        public async Task<IActionResult> Ticket(int? id, int? theaterAddressId, int? theaterId, int? auditoriumId, int? screeningId)
         {
 
             var viewModel = new TicketData();
@@ -75,7 +75,12 @@ namespace NSC_project.Controllers
                 Movie movie = viewModel.Movies.Single();
                 viewModel.Screenings = movie.Screenings;
                 viewModel.TheaterAddresses = await _context.TheaterAddress.ToListAsync();
-                viewModel.Theaters = viewModel.Screenings.Select(m => m.Theater);
+            }
+
+            if (theaterAddressId != null)
+            {
+                ViewData["theaterAddressId"] = theaterAddressId.Value;
+                viewModel.Theaters = viewModel.Screenings.Select(m => m.Theater).Where(t => t.TheaterAddressId == theaterAddressId).ToList();
             }
 
             if (theaterId != null)
@@ -88,13 +93,13 @@ namespace NSC_project.Controllers
 
             if (auditoriumId != null)
             {
-                ViewData["auditoriumId"] = auditoriumId.Value;
+                ViewData["screeningId"] = screeningId.Value;
                 var screening = await _context.Screening
                .Include(s => s.ReservedSeats)
                .Include(s => s.Auditorium)
                    .ThenInclude(s => s.Seats)
                .AsNoTracking()
-               .FirstOrDefaultAsync(m => m.Id == id);
+               .FirstOrDefaultAsync(m => m.Id == screeningId);
                 PopulateAssignedCourseData(screening, auditoriumId);
             }
 
@@ -120,15 +125,30 @@ namespace NSC_project.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateTicket([Bind("Id,Title,Director,Actor,Duration_min,Opening_date,Genre,Description,Image")] Movie movie)
+        public async Task<IActionResult> CreateTicket(int selectedScreening, string[] selectedSeats)
         {
+            var reservetion = new Reservetion
+            {
+                Status = "Yes",
+                UserId = 1,
+                ScreeningId = selectedScreening
+            };
+            if (selectedSeats != null)
+            {
+                reservetion.ReservedSeats = new List<ReservedSeat>();
+                foreach (var seat in selectedSeats)
+                {
+                    var seatToAdd = new ReservedSeat { ScreeningId = reservetion.ScreeningId, SeatId = int.Parse(seat), ReservetionId = reservetion.Id };
+                    reservetion.ReservedSeats.Add(seatToAdd);
+                }
+            }
             if (ModelState.IsValid)
             {
-                _context.Add(movie);
+                _context.Add(reservetion);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(movie);
+            return View(reservetion);
         }
 
 

@@ -141,21 +141,32 @@
     border-bottom: #df507a 0.5px solid;
 }
 
+    .room-ticket-item:last-child {
+        border-bottom: unset;
+    }
+
     .room-ticket-item h5 {
         color: white;
         font-weight: 400;
     }
-
-.time-room-list label {
-    width: fit-content;
-    border-radius: 2px;
-    color: white;
-    cursor: pointer;
-    user-select: none;
-    margin-left: 20px;
-    border: 1px solid white;
-    padding: 5px 0
+.time-room-list {
+    display: inline-block;
 }
+
+    .time-room-list + .time-room-list {
+        margin-left: 10px;
+    }
+
+    .time-room-list label {
+        width: fit-content;
+        border-radius: 2px;
+        color: white;
+        cursor: pointer;
+        user-select: none;
+        margin-left: 20px;
+        border: 1px solid white;
+        padding: 5px 0
+    }
 
     .time-room-list label input {
         display: none;
@@ -213,6 +224,35 @@ span a {
             color: #df507a;
         }
 
-a {
-    color: white;
+.emty-data {
+    display: block;
+    color: #df5263;
 }
+
+.ticket-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ticket-submit button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+    box-shadow: 0 0 20px 0 rgb(255 88 96 / 50%);
+    opacity: 0.85;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 150px;
+}
+    .ticket-submit button:hover {
+        opacity: 1;
+    }
+    a {
+        color: white;
+    }
+
