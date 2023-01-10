@@ -273,3 +273,4 @@ E:\APS.Net__FPT-Aptech\NSC-project\NSC-project\obj\Debug\net7.0\refint\NSC-proje
 E:\APS.Net__FPT-Aptech\NSC-project\NSC-project\obj\Debug\net7.0\NSC-project.pdb
 E:\APS.Net__FPT-Aptech\NSC-project\NSC-project\obj\Debug\net7.0\NSC-project.genruntimeconfig.cache
 E:\APS.Net__FPT-Aptech\NSC-project\NSC-project\obj\Debug\net7.0\ref\NSC-project.dll
+E:\APS.Net__FPT-Aptech\NSC-project\NSC-project\bin\Debug\net7.0\BCrypt.Net-Next.dll

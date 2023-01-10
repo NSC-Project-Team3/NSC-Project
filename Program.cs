@@ -4,6 +4,13 @@ using NSC_project.Data;
 using NSC_project.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDistributedMemoryCache();
+
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(10);
+});
+
 builder.Services.AddDbContext<NSC_projectContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("NSC_projectContext") ?? throw new InvalidOperationException("Connection string 'NSC_projectContext' not found.")));
 
@@ -36,6 +43,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

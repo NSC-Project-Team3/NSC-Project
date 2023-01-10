@@ -12,8 +12,8 @@ using NSC_project.Data;
 namespace NSCproject.Migrations
 {
     [DbContext(typeof(NSC_projectContext))]
-    [Migration("20230105030301_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20230110012014_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

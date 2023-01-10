@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "982fgtQdiBsG9PHH9NLT/HMtVuwLrMFFVQ1BNEwbmiA=",
+  "Hash": "nAXx3i1BCCZGbLR5NQmbQNYXc1zeF0K0jPjDwFUA4dQ=",
   "Source": "NSC-project",
   "BasePath": "_content/NSC-project",
   "Mode": "Default",
@@ -338,6 +338,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\avatar_2.jpg"
+    },
+    {
+      "Identity": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\boy.png",
+      "SourceId": "NSC-project",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\",
+      "BasePath": "_content/NSC-project",
+      "RelativePath": "img/boy.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\boy.png"
     },
     {
       "Identity": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\codecanyon-light-background.png",
@@ -678,6 +695,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\project-6.jpg"
+    },
+    {
+      "Identity": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\rows-red-seats-theater.jpg",
+      "SourceId": "NSC-project",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\",
+      "BasePath": "_content/NSC-project",
+      "RelativePath": "img/rows-red-seats-theater.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\rows-red-seats-theater.jpg"
     },
     {
       "Identity": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\section.jpg",

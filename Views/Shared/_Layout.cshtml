@@ -1,73 +1,10 @@
-﻿@*<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - NSC_project</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/NSC_project.styles.css" asp-append-version="true" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NSC_project</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">Users</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Movies" asp-action="Index">Movies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Theaters" asp-action="Index">Theaters</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Screenings" asp-action="Index">Screenings</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Seats" asp-action="Index">Seats</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Auditoriums" asp-action="Index">Auditoriums</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Reservetions" asp-action="Index">Reservetions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="ReservedSeats" asp-action="Index">ReservedSeats</a>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+﻿@using Microsoft.AspNetCore.Http
+@using NSC_project.Extentions;
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - NSC_project - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
-</html>
-*@
+@{
+    //Get object from session
+    var mySessionObject = Context.Session.GetObjectFromJson<UserSession>("UserDetails");
+}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -90,6 +27,14 @@
     <link rel="stylesheet" href="~/css/main.css" asp-append-version="true">
     <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true">
 
+    <!-- awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+            integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- Favicons -->
     <link rel="icon" type="image/png" href="http://flixgo.volkovdesign.com/main/icon/favicon-32x32.png" sizes="32x32">
     <link rel="apple-touch-icon" href="http://flixgo.volkovdesign.com/main/icon/favicon-32x32.png">
@@ -98,49 +43,6 @@
     <link rel="stylesheet" href="~/NSC_project.styles.css" asp-append-version="true" />
 </head>
 <body>
-    @*<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-    <div class="container-fluid">
-    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NSC_project</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-    aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-    <ul class="navbar-nav flex-grow-1">
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">Users</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="Movies" asp-action="Index">Movies</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="Theaters" asp-action="Index">Theaters</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="Screenings" asp-action="Index">Screenings</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="Seats" asp-action="Index">Seats</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="Auditoriums" asp-action="Index">Auditoriums</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="Reservetions" asp-action="Index">Reservetions</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="ReservedSeats" asp-action="Index">ReservedSeats</a>
-    </li>
-    </ul>
-    </div>
-    </div>
-    </nav>
-    </header>*@
-    <!-- header -->
     <header class="header">
         <div class="header__wrap">
             <div class="container">
@@ -244,8 +146,8 @@
                                     <ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuMore">
                                         <li><a href="http://flixgo.volkovdesign.com/main/about.html">About</a></li>
                                         <li><a href="http://flixgo.volkovdesign.com/main/profile.html">Profile</a></li>
-                                        <li><a href="http://flixgo.volkovdesign.com/main/signin.html">Sign In</a></li>
-                                        <li><a href="http://flixgo.volkovdesign.com/main/signup.html">Sign Up</a></li>
+                                        <li><a asp-controller="Accounts" asp-action="Login">Sign In</a></li>
+                                        <li><a asp-controller="Accounts" asp-action="Register">Sign Up</a></li>
                                         <li>
                                             <a href="http://flixgo.volkovdesign.com/main/forgot.html">
                                                 Forgot
@@ -290,14 +192,23 @@
                                     </ul>
                                 </div>
                                 <!-- end dropdown -->
-
-                                <a href="http://flixgo.volkovdesign.com/main/signin.html" class="header__sign-in">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                        <path d="M20,12a1,1,0,0,0-1-1H11.41l2.3-2.29a1,1,0,1,0-1.42-1.42l-4,4a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l4,4a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L11.41,13H19A1,1,0,0,0,20,12ZM17,2H7A3,3,0,0,0,4,5V19a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V16a1,1,0,0,0-2,0v3a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V5A1,1,0,0,1,7,4H17a1,1,0,0,1,1,1V8a1,1,0,0,0,2,0V5A3,3,0,0,0,17,2Z">
-                                        </path>
-                                    </svg>
-                                    <span>sign in</span>
-                                </a>
+                                @if (mySessionObject == null)
+							    {
+                                        <a asp-controller="Accounts" asp-action="Login" class="header__sign-in">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M20,12a1,1,0,0,0-1-1H11.41l2.3-2.29a1,1,0,1,0-1.42-1.42l-4,4a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l4,4a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L11.41,13H19A1,1,0,0,0,20,12ZM17,2H7A3,3,0,0,0,4,5V19a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V16a1,1,0,0,0-2,0v3a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V5A1,1,0,0,1,7,4H17a1,1,0,0,1,1,1V8a1,1,0,0,0,2,0V5A3,3,0,0,0,17,2Z">
+                                                </path>
+                                            </svg>
+                                            <span>sign in</span>
+                                        </a>
+							    }
+							    else
+							    {
+                                    <div style="display: flex;justify-content: center;align-items: center;margin-left: 20px;">
+									    <img src="~/img/boy.png" />
+                                     </div> 
+                                }
+                                
                             </div>
                             <!-- end header auth -->
                             <!-- header menu btn -->

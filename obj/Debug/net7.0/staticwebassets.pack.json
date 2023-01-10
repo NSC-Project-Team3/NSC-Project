@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\img\\avatar_2.jpg"
     },
     {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\boy.png",
+      "PackagePath": "staticwebassets\\img\\boy.png"
+    },
+    {
       "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\codecanyon-light-background.png",
       "PackagePath": "staticwebassets\\img\\codecanyon-light-background.png"
     },
@@ -151,6 +155,10 @@
     {
       "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\project-6.jpg",
       "PackagePath": "staticwebassets\\img\\project-6.jpg"
+    },
+    {
+      "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\rows-red-seats-theater.jpg",
+      "PackagePath": "staticwebassets\\img\\rows-red-seats-theater.jpg"
     },
     {
       "Id": "E:\\APS.Net__FPT-Aptech\\NSC-project\\NSC-project\\wwwroot\\img\\section.jpg",

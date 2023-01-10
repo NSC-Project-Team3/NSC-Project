@@ -24,9 +24,9 @@ namespace NSC_project.Models
                 //User
                 var users = new User[]
                 {
-                    new User { Username = "admin", Password = "123456", Name ="ADMIN", Email = "admin123@gmail.com",PhoneNumber = "0999999999"},
-                    new User { Username = "james", Password = "123456", Name ="Alex James", Email = "alex123@gmail.com",PhoneNumber = "0999999333"},
-                    new User { Username = "michel", Password = "123456", Name ="Vander Michel", Email = "vander@gmail.com",PhoneNumber = "0999999666"}
+                    new User { Username = "admin", Password = BCrypt.Net.BCrypt.HashPassword("123456"), Name ="ADMIN", Email = "admin123@gmail.com",PhoneNumber = "0999999999"},
+                    new User { Username = "james", Password = BCrypt.Net.BCrypt.HashPassword("123456"), Name ="Alex James", Email = "alex123@gmail.com",PhoneNumber = "0999999333"},
+                    new User { Username = "michel", Password = BCrypt.Net.BCrypt.HashPassword("123456"), Name ="Vander Michel", Email = "vander@gmail.com",PhoneNumber = "0999999666"}
                 };
 
                 foreach (User s in users)
@@ -233,6 +233,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT1").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT1").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT1").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT1").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT2").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT2").Id },
@@ -293,6 +294,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT2").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT2").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT2").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT2").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT3").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT3").Id },
@@ -353,6 +355,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT3").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT3").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT3").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT3").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT4").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT4").Id },
@@ -413,6 +416,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT4").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT4").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT4").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "VCBT4").Id },
 
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "MT1").Id },
@@ -474,6 +478,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "MT1").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "MT1").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "MT1").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "MT1").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "MT2").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "MT2").Id },
@@ -534,6 +539,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "MT2").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "MT2").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "MT2").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "MT2").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "MT3").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "MT3").Id },
@@ -594,6 +600,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "MT3").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "MT3").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "MT3").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "MT3").Id },
 
                         new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "MT4").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "MT4").Id },
@@ -654,6 +661,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "MT4").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "MT4").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "MT4").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "MT4").Id },
 
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP1").Id },
@@ -715,6 +723,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP1").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP1").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP1").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP1").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP2").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP2").Id },
@@ -775,6 +784,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP2").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP2").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP2").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP2").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP3").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP3").Id },
@@ -835,6 +845,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP3").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP3").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP3").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP3").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP4").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP4").Id },
@@ -895,6 +906,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP4").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP4").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP4").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "HGP4").Id },
 
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP1").Id },
@@ -956,6 +968,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP1").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP1").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP1").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP1").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP2").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP2").Id },
@@ -1016,6 +1029,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP2").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP2").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP2").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP2").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP3").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP3").Id },
@@ -1076,6 +1090,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP3").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP3").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP3").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP3").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP4").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP4").Id },
@@ -1136,6 +1151,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP4").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP4").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP4").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "HVP4").Id },
 
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "CM1").Id },
@@ -1197,6 +1213,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "CM1").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "CM1").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "CM1").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "CM1").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "CM2").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "CM2").Id },
@@ -1257,6 +1274,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "CM2").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "CM2").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "CM2").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "CM2").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "CM3").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "CM3").Id },
@@ -1317,6 +1335,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "CM3").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "CM3").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "CM3").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "CM3").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "CM4").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "CM4").Id },
@@ -1377,6 +1396,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "CM4").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "CM4").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "CM4").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "CM4").Id },
 
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "PC1").Id },
@@ -1438,6 +1458,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "PC1").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "PC1").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "PC1").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "PC1").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "PC2").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "PC2").Id },
@@ -1498,6 +1519,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "PC2").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "PC2").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "PC2").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "PC2").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "PC3").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "PC3").Id },
@@ -1558,6 +1580,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "PC3").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "PC3").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "PC3").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "PC3").Id },
 
                     new Seat { Number = 1, AuditoriumId  = auditoriums.Single( a => a.Name == "PC4").Id },
                     new Seat { Number = 2, AuditoriumId  = auditoriums.Single( a => a.Name == "PC4").Id },
@@ -1618,6 +1641,7 @@ namespace NSC_project.Models
                     new Seat { Number = 57, AuditoriumId  = auditoriums.Single( a => a.Name == "PC4").Id },
                     new Seat { Number = 58, AuditoriumId  = auditoriums.Single( a => a.Name == "PC4").Id },
                     new Seat { Number = 59, AuditoriumId  = auditoriums.Single( a => a.Name == "PC4").Id },
+                    new Seat { Number = 60, AuditoriumId  = auditoriums.Single( a => a.Name == "PC4").Id },
 
                };
 
